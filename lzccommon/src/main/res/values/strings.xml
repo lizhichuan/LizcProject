@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">LzcCommon</string>
+
+    <!--TakePhoto-->
+    <string name="tip_type_not_image">选择的不是图片</string>
+    <string name="tip_no_camera">没有相机</string>
+    <string name="tip_tips">提示</string>
+    <string name="tip_compress">正在压缩照片...</string>
+    <string name="tip_compress_failed">"%1$s 图片压缩失败:%2$s picturePath:%3$s"</string>
+    <string name="msg_crop_failed">"有裁切失败的图片"</string>
+    <string name="msg_compress_failed">"有压缩失败的图片"</string>
+    <string name="msg_crop_canceled">" 取消裁切"</string>
+    <string name="msg_operation_canceled">"操作被取消"</string>
+    <string name="tip_permission_camera">没有使用相机的权限，请在权限管理中开启</string>
+    <string name="tip_permission_storage">没有使用SD卡的权限，请在权限管理中开启</string>
+    <string name="tip_permission_camera_storage">没有使用相机和SD卡的权限，请在权限管理中开启</string>
+
+    <!--custom multipleimageselect -->
+    <string name="album_view">选择图片</string>
+    <string name="image_view">单击选择</string>
+
+    <string name="add">确定</string>
+    <string name="selected">已选</string>
+    <string name="limit_exceeded">最多能选 %d 张</string>
+    <string name="error_null_cursor">Oops, something went wrong!</string>
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+
+
+    <string name="gravity_left">left</string>
+    <string name="gravity_center">center</string>
+    <string name="gravity_right">right</string>
+
+
+    <!--Request Permission-->
+    <string name="permission_info">App requires permission to Storage to view images.</string>
+    <string name="permission_force">App requires permission to Storage to view images. Tap Settings and go to Permissions to grant permission.</string>
+    <string name="permission_ok">OK</string>
+    <string name="permission_settings">Settings</string>
+    <string name="permission_package">package</string>
+
+
+    <string name="permission_get_accounts_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_GET_ACCOUNTS</string>
+    <string name="permission_read_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_PHONE_STATE</string>
+    <string name="permission_call_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CALL_PHONE</string>
+    <string name="permission_camera_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CAMERA</string>
+    <string name="permission_access_fine_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_FINE_LOCATION</string>
+    <string name="permission_access_coarse_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_COARSE_LOCATION</string>
+    <string name="permission_read_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_EXTERNAL_STORAGE</string>
+    <string name="permission_white_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_recode_audio_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_RECORD_AUDIO</string>
+
+    <string name="permission">权限(permission)</string>
+    <string name="no_permissions">应用需要必要的运行权限</string>
+
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"确定\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+
+
+    <string name="view_component_button_cancel">取消</string>
+    <string name="view_component_button_send">发送</string>
+    <string name="view_component_limit_min_warn">输入内容不能少于%1$d字</string>
+    <string name="view_component_limit_max_warn">输入内容不能超过%1$d字</string>
+
+
+    <string name="cancel">取消</string>
+    <string name="submit">提交</string>
+    <string name="send">发送</string>
+    <string name="input_hint">请输入&#8230;</string>
+
+    <string name="fingerprint_recognition_not_enrolled">您还没有录制指纹，请录入！</string>
+    <string name="fingerprint_not_set_unlock_screen_pws">系统没有设置锁屏密码，请设置！</string>
+    <string name="fingerprint_sys_setting_page">进入系统指纹设置页面</string>
+    <string name="sys_pwd_recognition_success">系统密码识别成功</string>
+    <string name="sys_pwd_recognition_failed">系统密码识别失败</string>
+    <string name="fingerprint_recognition_not_support">此设备不支持指纹解锁</string>
+    <string name="fingerprint_recognition_tip">请进行指纹识别，长按指纹解锁键</string>
+    <string name="fingerprint_recognition_authenticating">指纹识别已经开启，长按指纹解锁键</string>
+
+    <string name="__picker_title">图片</string>
+    <string name="__picker_delete">删除</string>
+    <string name="__picker_done">完成</string>
+    <string name="__picker_done_with_count">完成(%1$d/%2$d)</string>
+    <string name="__picker_image_index">%1$d/%2$d</string>
+    <string name="__picker_undo">撤消</string>
+    <string name="__picker_deleted_a_photo">删除了一张图片</string>
+    <string name="__picker_confirm_to_delete">确认删除？</string>
+    <string name="__picker_yes">确定</string>
+    <string name="__picker_cancel">取消</string>
+    <string name="__picker_all_image">所有图片</string>
+    <string name="__picker_over_max_count_tips">你最多可以选择%1$d张图片</string>
+    <string name="__picker_image_count">%1$d张</string>
+
+
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">释放立即刷新</string>
+    <string name="listview_loading">正在加载...</string>
+    <string name="nomore_loading">没有了</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="listview_header_last_time">上次更新时间：</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">正在加载中…</string>
+    <string name="list_footer_network_error">点击重新加载</string>
+    <string name="list_footer_end">已全部加载完</string>
+
+    <string name="text_just">刚刚</string>
+    <string name="text_seconds_ago">秒前</string>
+    <string name="text_minute_ago">分钟前</string>
+    <string name="text_hour_ago">小时前</string>
+    <string name="text_day_ago">天前</string>
+    <string name="text_month_ago">月前</string>
+    <string name="text_year_ago">年前</string>
+
+
+</resources>
